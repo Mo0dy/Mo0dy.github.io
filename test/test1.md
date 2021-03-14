@@ -27,8 +27,9 @@ This does something
 
 ## Example Usage
 
+```bash
     python my_test_script.py -i somedata
-
+```
 
 <a id="org21add34"></a>
 
@@ -72,8 +73,9 @@ This does something
 
 This module soley depends on numpy.
 
+```python
     import numpy as np
-
+```
 
 <a id="org19c396a"></a>
 
@@ -81,6 +83,8 @@ This module soley depends on numpy.
 
 this function adds two numbers
 
+```python
     def do_something_complicated(a : int, b : int) -> int:
         return a + b
+```
 
