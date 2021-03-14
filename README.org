@@ -1,0 +1,8 @@
+
+* A testsite for github pages
+This is just a site to play a bit with github pages and potentially submodules
+
+** Scripts:
+*** Something to add two numbers
+This script adds two numbers
+[[file:test/test1.org][test1 script]]

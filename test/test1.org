@@ -1,0 +1,28 @@
+#+TITLE: Test1
+
+* This is some description of some intersting code
+** Overview
+This does something
+
+** Example Usage
+#+begin_src bash
+python my_test_script.py -i somedata
+#+end_src
+
+** Thorough usage documentation
+| -m | filename of input data |          |
+| -i | output file name       | optional |
+
+** Documentation
+*** Dependencies
+This module soley depends on numpy.
+#+begin_src python
+import numpy as np
+#+end_src
+
+*** This one difficult function
+this function adds two numbers
+#+begin_src python
+def do_something_complicated(a : int, b : int) -> int:
+    return a + b
+#+end_src
